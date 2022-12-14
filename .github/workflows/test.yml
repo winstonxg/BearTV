@@ -1,6 +1,6 @@
 name: Test
 
-#on:
+on:
   #schedule:
    # - cron: 45 0/4 * * *
   workflow_dispatch:
@@ -9,6 +9,7 @@ name: Test
 env:
   userName: FongMi
   repoName: TV
+  #branchName: main
   branchName: dev
   appName: AlphaTV
 
