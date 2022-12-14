@@ -76,7 +76,8 @@ jobs:
     if: needs.prepare.outputs.tag
     strategy:
       matrix:
-        product: [ leanback, mobile ]
+        #product: [ leanback, mobile ]
+        product: [ leanback ]
       fail-fast: false
     runs-on: ubuntu-latest
     env:
